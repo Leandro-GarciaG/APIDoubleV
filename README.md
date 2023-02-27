@@ -2,7 +2,8 @@
 
 Info: Se crea imagen de bases de datos mediante docket para ejecuión local
 
-1. Abrir la consola de comando en el directorio de la imagen "test-doublev-partners.tar"
+0. Descargar la imagen en el siguiente enlace "https://we.tl/t-Z81XKIpix9" [Expira en 7 días apartir de la fecha contactar en caso de ser necesario]
+1. Abrir la consola de comando en el directorio donde se descargo la imagen "test-doublev-partners.tar"
 2. Ejecutar el comando "docker load < test-doublev-partners.tar"
 3. Ejecutar el comando "docker run --name test-doublev-partners -e POSTGRES_USER=DoubleV -e POSTGRES_PASSWORD=password -e POSTGRES_DB=PruebaDB -p 5432:5432 -d test-doublev-partners"
 
